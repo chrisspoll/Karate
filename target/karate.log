@@ -1,0 +1,1070 @@
+19:44:01.315 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+19:44:02.027 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+19:44:03.636 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.1)
+
+19:44:04.380 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 731,67
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Age: 17965
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5f64ccb92954d70d-FRA
+1 < Cache-Control: max-age=43200
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 22 Nov 2020 18:44:04 GMT
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Pragma: no-cache
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=23ZpAFP%2FYNmZSx1u4YBuMkuJ8GwhdQXVF6c9hSsZZmEs5ZqdPBk%2BMayhgn4SiRhaOTRYe8mJ6shjj5etLos%2FGBrwC3ucm%2BpLcq6h7ICcUvG85JlpFAouJdzSaEIY"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d8dbca4d2750445cca7d91e6609e0f6fa1606070644; expires=Tue, 22-Dec-20 18:44:04 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 998
+1 < X-Ratelimit-Reset: 1604555016
+1 < cf-request-id: 0692de47bd0000d70d330ec000000001
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+19:44:04.508 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Cookie: __cfduid=d8dbca4d2750445cca7d91e6609e0f6fa1606070644
+2 > Host: jsonplaceholder.typicode.com
+2 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.1)
+
+19:44:04.760 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 248,36
+2 < 200
+2 < Access-Control-Allow-Credentials: true
+2 < Age: 2955
+2 < CF-Cache-Status: HIT
+2 < CF-RAY: 5f64ccbb9f8d2b71-FRA
+2 < Cache-Control: max-age=43200
+2 < Connection: keep-alive
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Sun, 22 Nov 2020 18:44:05 GMT
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Expires: -1
+2 < NEL: {"report_to":"cf-nel","max_age":604800}
+2 < Pragma: no-cache
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=X56xT%2BUENOEANHtHa0HlyuuyacpPs2Wg5vBrHfWXK%2FXfUgfZ2Uq3Ka4L6XkyMESIodLcsFO%2B8K1kIqBC1kpicHB%2B21k%2FavtDQs8RsN5ZK4rxscMdm2mqSdFHrnt4"}],"group":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < Transfer-Encoding: chunked
+2 < Vary: Origin, Accept-Encoding
+2 < Via: 1.1 vegur
+2 < X-Content-Type-Options: nosniff
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1605654113
+2 < cf-request-id: 0692de494100002b7146980000000001
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+19:44:04.801 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+19:44:04.826 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 160
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.1)
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+19:44:05.318 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 488,45
+1 < 201
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Expose-Headers: Location
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5f64ccbdfa8d0621-FRA
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Length: 216
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 22 Nov 2020 18:44:05 GMT
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Pragma: no-cache
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=vDwAnZt2TGgeuR%2BSbFWI9dR0vcL7DkEPwaqaYpKb8vBqSsCn3Je%2FGmqyuALwFMntIdp4j7ucaTLbGM2BJLExMZfugimM5PylFWPyo3lv3lmzktcXeV5hjFlUCQ64"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dce48bb1406127dcdb56cce40b17f64951606070645; expires=Tue, 22-Dec-20 18:44:05 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1606070666
+1 < cf-request-id: 0692de4ac00000062159aa9000000001
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+
+19:44:05.352 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] created id is:  11
+19:44:05.730 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/users/users.feature
+20:39:08.919 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:39:08.966 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 7 - ^get all users and then get the first user by id$
+20:39:09.421 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:39:10.861 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.1)
+
+20:39:11.577 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 708,54
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Age: 8990
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5f651d771c57ee3b-CDG
+1 < Cache-Control: max-age=43200
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 22 Nov 2020 19:39:11 GMT
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Pragma: no-cache
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=1RCKCKV5krBIvM1v03vJXvs89mzgFBgOvKQ12UEoCu%2BP1u6R9mRpHiskwvdaGcbPDmdqgIMwsrAPadjdAWyc%2BgzQMR1bL%2FUvcPKZzL83gcXzsxbv656Qg2ZOQh0V"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d0f251d82b07b37f7a2a8b71740cca7031606073951; expires=Tue, 22-Dec-20 19:39:11 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1604548490
+1 < cf-request-id: 069310be710000ee3b1005c000000001
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+20:39:11.655 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Cookie: __cfduid=d0f251d82b07b37f7a2a8b71740cca7031606073951
+2 > Host: jsonplaceholder.typicode.com
+2 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.1)
+
+20:39:11.858 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 207,34
+2 < 200
+2 < Access-Control-Allow-Credentials: true
+2 < Age: 4513
+2 < CF-Cache-Status: HIT
+2 < CF-RAY: 5f651d793d4b0830-CDG
+2 < Cache-Control: max-age=43200
+2 < Connection: keep-alive
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Sun, 22 Nov 2020 19:39:12 GMT
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Expires: -1
+2 < NEL: {"report_to":"cf-nel","max_age":604800}
+2 < Pragma: no-cache
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=T%2FtvGV5q1dlYpoFhXDZe7vb%2BLcswzU3ZzgTxWxtewW7xenIUwaJUCmf7%2BokdBTtsUCI2MGcjzpkzdgg40zQOBOWI%2B2OiVcRoQTxIFfIAL6HyuLQ68tUgbftZ8jO8"}],"group":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < Transfer-Encoding: chunked
+2 < Vary: Origin, Accept-Encoding
+2 < Via: 1.1 vegur
+2 < X-Content-Type-Options: nosniff
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1604639750
+2 < cf-request-id: 069310bfbf00000830208e0000000001
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+20:39:12.260 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/users/users.feature
+23:44:39.377 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:44:39.385 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 4 - ^HR API Get method$
+23:44:40.161 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+23:44:41.661 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET http://100.25.34.235:1000/ords/hr/countries
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: 100.25.34.235:1000
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.1)
+
+23:45:02.919 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to 100.25.34.235:1000 [/100.25.34.235] failed: Connection timed out: no further information, http call failed after 21257 milliseconds for URL: http://100.25.34.235:1000/ords/hr/countries
+23:45:02.920 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to 100.25.34.235:1000 [/100.25.34.235] failed: Connection timed out: no further information
+23:45:03.306 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/apiPractice.feature
+23:46:28.798 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:46:28.810 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 4 - ^HR API Get method$
+23:46:29.215 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+23:46:30.340 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://www.potterapi.com/v1/sortingHat
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.potterapi.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.1)
+
+23:46:32.554 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 2204,72
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Content-length, Accept, Authorization
+1 < Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5f662fe3ebadef61-NRT
+1 < Connection: keep-alive
+1 < Content-Length: 12
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 22 Nov 2020 22:46:32 GMT
+1 < Etag: W/"c-ekj8uARie6ITGTrQAQjSkB6j2cM"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=CEl7wT%2FAjy0Szkas8ADGIZBwm6rzPrf5qby0qzIVpkKkB8No6VoiX3LdYzVg9TZjDNwjyqIiWkjtngosSZQ%2B83PGR8DSuSz8RyWTbNrVO5M6SA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d151d66b226a242b723e1677ceaeb012c1606085192; expires=Tue, 22-Dec-20 22:46:32 GMT; path=/; domain=.potterapi.com; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0693bc426f0000ef6113080000000001
+"Hufflepuff"
+
+23:46:32.862 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/users/apiPractice.feature
+23:49:48.002 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:49:48.012 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 4 - ^Harry potter API Get method$
+23:49:48.453 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+23:49:49.603 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://www.potterapi.com/v1/sortingHat
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.potterapi.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.1)
+
+23:49:51.354 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1745,83
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Content-length, Accept, Authorization
+1 < Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5f6634bdea29ef55-NRT
+1 < Connection: keep-alive
+1 < Content-Length: 12
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 22 Nov 2020 22:49:51 GMT
+1 < Etag: W/"c-vlEuil5HLcnobzeFWhIiUrQIcNk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=0bPdtvl5OKg44XACkc%2B0NNx%2FOg6y4mX5YyB4WgB%2Bv1yYhhmZkea047cjdwpyzBgdtOvwk5LMhtba7%2FQyYZNXMc9X7x3Ads5ePb0%2BTsTAYQtTWQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d2fc325d57e3f52314d075ca5dc3b498f1606085391; expires=Tue, 22-Dec-20 22:49:51 GMT; path=/; domain=.potterapi.com; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0693bf4ab00000ef552b330000000001
+"Gryffindor"
+
+23:49:51.626 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/apiPractice.feature
+23:51:06.392 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:51:06.402 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 4 - ^Harry potter API Get method$
+23:51:06.902 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+23:51:08.235 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://www.potterapi.com/v1/sortingHat
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.potterapi.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.1)
+
+23:51:09.945 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1702,52
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Content-length, Accept, Authorization
+1 < Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5f6636a92d960ac4-NRT
+1 < Connection: keep-alive
+1 < Content-Length: 11
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 22 Nov 2020 22:51:10 GMT
+1 < Etag: W/"b-PD2viZwUpnBCq+Xsm60WsifffFI"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=oLKwlFZXnGlaNlVoXOBQ7WFF0TyV25KgNu7HbBm3OTvpqCVc54qoASfxvGTlPD%2BCHPQUPhzJzach%2FWe7DFCt%2F3oyBwXwdPnwPM7ScIBBTrzaPQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=de7edd9768535d880b31ce705260cc4431606085469; expires=Tue, 22-Dec-20 22:51:09 GMT; path=/; domain=.potterapi.com; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0693c07dbb00000ac4afb4f000000001
+"Slytherin"
+
+23:51:10.326 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/apiPractice.feature
+23:54:10.435 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:54:10.444 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 4 - ^Harry potter API Get method$
+23:54:10.926 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+23:54:12.202 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://www.potterapi.com/v1/sortingHat
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.potterapi.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.1)
+
+23:54:14.201 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1992,62
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Content-length, Accept, Authorization
+1 < Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5f663b2959121d8b-NRT
+1 < Connection: keep-alive
+1 < Content-Length: 12
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 22 Nov 2020 22:54:14 GMT
+1 < Etag: W/"c-vlEuil5HLcnobzeFWhIiUrQIcNk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=lmdFnqNSUJbXLWzb7Yfrlm6yTgG8rl9ZPw8jiUTxLQFioP0U2gN7a3Ymu4d38dHvYzfenfb0voUevavJUiIcwb1lrpEd2awRvMwi%2FlZH1ZA0CQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d988c7ce18afa352f070621360befbca11606085653; expires=Tue, 22-Dec-20 22:54:13 GMT; path=/; domain=.potterapi.com; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0693c34ddb00001d8b7e208000000001
+"Gryffindor"
+
+23:54:14.238 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - assertion failed: path: $, actual: '"Gryffindor"', expected: 'Gryffindor', reason: not equal
+23:54:14.782 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/apiPractice.feature
+00:01:22.110 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+00:01:22.118 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 4 - ^Harry potter API Get method$
+00:01:22.526 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+00:01:23.702 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://www.potterapi.com/v1/sortingHat
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.potterapi.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.1)
+
+00:01:25.833 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 2124,27
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Content-length, Accept, Authorization
+1 < Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5f6645b218040e82-NRT
+1 < Connection: keep-alive
+1 < Content-Length: 11
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 22 Nov 2020 23:01:25 GMT
+1 < Etag: W/"b-PD2viZwUpnBCq+Xsm60WsifffFI"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=wwF2BipQHpOARknRogdTU%2FPdW1mWUh8zOwCFsLIjX7A0aY0TGezvwfA%2FApVLHs2ARNVusn4oRMMpu6%2BlcAMT7gXHLQzpM2U1xibIU85%2FvQs6JQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=df9fd53a753df19c7010064bb5bededa31606086085; expires=Tue, 22-Dec-20 23:01:25 GMT; path=/; domain=.potterapi.com; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0693c9e34f00000e82ce34f000000001
+"Slytherin"
+
+00:01:25.850 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - assertion failed: path: $, actual: '"Slytherin"', expected: 'Gryffindor', reason: not a sub-string
+00:01:26.121 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/apiPractice.feature
+00:02:25.757 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+00:02:25.768 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 4 - ^Harry potter API Get method$
+00:02:26.203 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+00:02:27.616 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://www.potterapi.com/v1/sortingHat
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.potterapi.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.1)
+
+00:02:29.341 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1717,44
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Content-length, Accept, Authorization
+1 < Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5f66473ff9189461-NRT
+1 < Connection: keep-alive
+1 < Content-Length: 12
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 22 Nov 2020 23:02:29 GMT
+1 < Etag: W/"c-vlEuil5HLcnobzeFWhIiUrQIcNk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=n4119vle7MOdPDpaBIMCDhcqm6h3TWPjJMpAPOgD3QfrzP3nyASrh3wabVEDFVIB3lp7myOCLY08fKH027WEJk%2FQJbI1NgzG2vO0vZktDNbh1g%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dacd3e56cfd76cdb40eac3cb9d0c60d831606086149; expires=Tue, 22-Dec-20 23:02:29 GMT; path=/; domain=.potterapi.com; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0693cadbfc00009461b821d000000001
+"Gryffindor"
+
+00:02:29.636 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/apiPractice.feature
+00:03:38.375 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+00:03:38.384 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 4 - ^Harry potter API Get method$
+00:03:38.831 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+00:03:40.020 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://www.potterapi.com/v1/sortingHat
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.potterapi.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.1)
+
+00:03:41.877 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1852,31
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Content-length, Accept, Authorization
+1 < Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5f6649044bfe0abc-NRT
+1 < Connection: keep-alive
+1 < Content-Length: 12
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 22 Nov 2020 23:03:42 GMT
+1 < Etag: W/"c-vlEuil5HLcnobzeFWhIiUrQIcNk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=rYZSvuzFWbWpZjY%2FyBvlsjre8%2BuusUMP721ek2fBLjRAtJMYS1xa70%2FYqrwA%2BmHVvxCyD7naBNiRgJ0OvUMjACKnfFm8Z2pYqBwLp32YBFKJ7Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d2d5691f769879a2e05656ae49a05d97a1606086221; expires=Tue, 22-Dec-20 23:03:41 GMT; path=/; domain=.potterapi.com; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0693cbf6ac00000abc9b364000000001
+"Gryffindor"
+
+00:03:41.881 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] "Gryffindor"
+00:03:42.176 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/users/apiPractice.feature
+00:11:48.525 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+00:11:48.536 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 4 - ^Harry potter API Get method$
+00:11:48.972 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+00:11:50.159 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://www.potterapi.com/v1/sortingHat
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.potterapi.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.1)
+
+00:11:52.132 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1966,89
+1 < 200
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5f6654fd2cf9f8cb-NRT
+1 < Connection: keep-alive
+1 < Content-Length: 12
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 22 Nov 2020 23:11:52 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=7DxYszikQ3t1cquRZHCScZiNpTNa5oIHbDHyDtoWfj5GOj8fObIrhhwI1UEZfKbX%2FWBYcuf001z6ImLdOnKmfjiY1iRjUza0PHnX2zzaQm%2FKwg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dcb7ac6fc523eda87bd86fc821a5e8cbe1606086711; expires=Tue, 22-Dec-20 23:11:51 GMT; path=/; domain=.potterapi.com; HttpOnly; SameSite=Lax; Secure
+1 < access-control-allow-credentials: true
+1 < access-control-allow-headers: Origin, X-Requested-With, Content-Type, Content-length, Accept, Authorization
+1 < access-control-allow-methods: POST, GET, PUT, DELETE, OPTIONS
+1 < access-control-allow-origin: *
+1 < cf-request-id: 0693d3723c0000f8cb6e03e000000001
+1 < etag: W/"c-ekj8uARie6ITGTrQAQjSkB6j2cM"
+1 < via: 1.1 vegur
+1 < x-powered-by: Express
+"Hufflepuff"
+
+00:11:52.134 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] "Hufflepuff"
+00:11:52.418 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/apiPractice.feature
+08:48:50.187 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+08:48:50.248 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 4 - ^Harry potter API Get method$
+08:48:51.263 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+08:48:53.321 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://www.potterapi.com/v1/sortingHat
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.potterapi.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.1)
+
+08:48:54.834 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1503,60
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Content-length, Accept, Authorization
+1 < Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 601e90a0fa34d45b-HAM
+1 < Connection: keep-alive
+1 < Content-Length: 12
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 15 Dec 2020 07:48:54 GMT
+1 < Etag: W/"c-vlEuil5HLcnobzeFWhIiUrQIcNk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=a5JyDDtwfT0UkFljDNVqhuuAT8FMAZ8uWDRJdbtlxvQmXhM%2BX3ZdEOH9nqfG0v9uFUFkV7RCwV3zLXxI3eF26S3hKJ3ZWAFqFJ2ZgtfH1cw7Ew%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d4cf292f88187f7f10e790ac7abf5ddb41608018534; expires=Thu, 14-Jan-21 07:48:54 GMT; path=/; domain=.potterapi.com; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0706f8b8a00000d45b5a239000000001
+"Gryffindor"
+
+08:48:54.840 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] "Gryffindor"
+08:48:55.437 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/apiPractice.feature
+16:29:15.363 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+16:29:15.379 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 4 - ^Harry potter API Get method$
+16:29:15.851 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+16:29:17.363 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://www.potterapi.com/v1/sortingHat
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.potterapi.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.1)
+
+16:29:19.035 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1666,29
+1 < 200
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 6021330e1e9dee75-CDG
+1 < Connection: keep-alive
+1 < Content-Length: 12
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 15 Dec 2020 15:29:19 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=Ar1xcgmEQPhae4dCnThYI5eSNMHQN0EBnPSjyXphfL0Cn7QWjgEx88ZHXzgL1Onv06DpVKc7GzdZHIPkCjvdVU2ivigQDnPKrrQybHE2ies0vw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d39bf92bbe6f6a881a6ca86bee4521c881608046159; expires=Thu, 14-Jan-21 15:29:19 GMT; path=/; domain=.potterapi.com; HttpOnly; SameSite=Lax; Secure
+1 < access-control-allow-credentials: true
+1 < access-control-allow-headers: Origin, X-Requested-With, Content-Type, Content-length, Accept, Authorization
+1 < access-control-allow-methods: POST, GET, PUT, DELETE, OPTIONS
+1 < access-control-allow-origin: *
+1 < cf-request-id: 07089e3cd20000ee759b384000000001
+1 < etag: W/"c-vlEuil5HLcnobzeFWhIiUrQIcNk"
+1 < via: 1.1 vegur
+1 < x-powered-by: Express
+"Gryffindor"
+
+16:29:19.051 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] "Gryffindor"
+16:29:19.435 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/apiPractice.feature

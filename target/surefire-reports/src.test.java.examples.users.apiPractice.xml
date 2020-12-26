@@ -1,0 +1,17 @@
+<testsuite failures="1" name="src/test/java/examples/users/apiPractice.feature" skipped="0" tests="1" time="3.039144">
+  <testcase classname="src.test.java.examples.users.apiPractice" name="Harry potter API Get method" time="3.039144">
+    <failure message="apiPractice.feature:12 - javascript evaluation failed: if(house == 'Hufflepuff' || house == 'Gryffindor' || house == 'Slytherin' || house == 'Ravenclaw'), &lt;eval&gt;:1:98 Expected ; but found eof&#13;&#10;if(house == 'Hufflepuff' || house == 'Gryffindor' || house == 'Slytherin' || house == 'Ravenclaw')&#13;&#10;                                                                                                  ^ in &lt;eval&gt; at line number 1 at column number 98">Given url 'https://www.potterapi.com/v1/' ................................. passed
+And path 'sortingHat' ..................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def house = response .................................................... passed
+And print house ........................................................... passed
+And eval if(house == 'Hufflepuff' || house == 'Gryffindor' || house == 'Slytherin' || house == 'Ravenclaw') . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: apiPractice.feature:12 - javascript evaluation failed: if(house == 'Hufflepuff' || house == 'Gryffindor' || house == 'Slytherin' || house == 'Ravenclaw'), &lt;eval&gt;:1:98 Expected ; but found eof&#13;
+if(house == 'Hufflepuff' || house == 'Gryffindor' || house == 'Slytherin' || house == 'Ravenclaw')&#13;
+                                                                                                  ^ in &lt;eval&gt; at line number 1 at column number 98&#13;
+	at ✽.And eval if(house == 'Hufflepuff' || house == 'Gryffindor' || house == 'Slytherin' || house == 'Ravenclaw') (apiPractice.feature:12)</failure>
+  </testcase>
+</testsuite>
